@@ -52,6 +52,7 @@ nav>* {
 header {
   text-align: center;
   font-family: 'Overpass', sans-serif;
+  color: var(--White-text);
 }
 
 header button {
