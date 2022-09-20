@@ -53,6 +53,9 @@ header {
   text-align: center;
   font-family: 'Overpass', sans-serif;
   color: var(--White-text);
+  background:
+    url(images/bg-pattern-intro-mobile.svg) center,
+    var(--CTA-text);
 }
 
 header button {
