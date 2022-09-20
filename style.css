@@ -34,6 +34,7 @@ body {
 
 nav {
   display: flex;
+  margin: 3rem 1rem 0;
 }
 
 nav>* {
@@ -46,6 +47,10 @@ nav>* {
 
 .nav__container {
   display: none;
+}
+
+header {
+  text-align: center;
 }
 
 .attribution {
