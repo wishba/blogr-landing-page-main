@@ -27,14 +27,17 @@
 
 body {
   font-size: 16px;
-  background-color: lightgray;
   margin: 0;
   padding: 0;
 }
 
 nav {
   display: flex;
-  margin: 3rem 1rem 0;
+  position: absolute;
+  width: calc(100% - 2rem);
+  top: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 nav>* {
@@ -54,8 +57,20 @@ header {
   font-family: 'Overpass', sans-serif;
   color: var(--White-text);
   background:
-    url(images/bg-pattern-intro-mobile.svg) center,
-    var(--CTA-text);
+    url(images/bg-pattern-intro-mobile.svg) top 35% left 35%,
+    linear-gradient(var(--Very-light-red), var(--Light-red));
+  padding-top: 10rem;
+  border-bottom-left-radius: 20%;
+}
+
+header h1 {
+  width: 14ch;
+  margin: auto;
+}
+
+header p {
+  width: 25ch;
+  margin: 1rem auto;
 }
 
 header button {
@@ -65,6 +80,7 @@ header button {
   height: 2rem;
   border-radius: 1rem;
   border: 1.5px solid var(--White-text);
+  margin: 2rem .25rem 7rem;
 }
 
 .header__start {
