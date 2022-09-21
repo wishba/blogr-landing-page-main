@@ -97,6 +97,14 @@ header button {
   color: var(--white);
 }
 
+.section__design {
+  text-align: center;
+}
+
+.section__design h2 {
+  margin: 6.3rem auto;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
