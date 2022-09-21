@@ -123,18 +123,31 @@ header button {
 
 .section__state {
   background:
-    url(images/bg-pattern-circles.svg) center top -15rem no-repeat,
+    url(images/bg-pattern-circles.svg) center top -16.5rem no-repeat,
     linear-gradient(var(--very-dark-gray-blue), var(--very-dark-desaturated-blue), var(--very-dark-gray-blue));
   background-size: 160%;
   margin-top: 15rem;
   border-top-right-radius: 5rem;
   border-bottom-left-radius: 5rem;
+  text-align: center;
+  padding-bottom: 7.5rem;
+  color: var(--white);
 }
 
 .section__state-img {
   content: url(images/illustration-phones.svg);
   transform: translateY(-11rem);
   width: 100%;
+}
+
+.section__state-body {
+  margin: -11rem 2.5rem 0;
+}
+
+.section__state-body h2 {
+  transform: scale(1.25);
+  width: 15ch;
+  margin: auto;
 }
 
 .attribution {
