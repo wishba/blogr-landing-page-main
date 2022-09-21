@@ -121,6 +121,14 @@ header button {
   width: 15ch;
 }
 
+.section__state {
+  background: linear-gradient(var(--very-dark-gray-blue), var(--very-dark-desaturated-blue), var(--very-dark-gray-blue));
+}
+
+.section__state-img {
+  content: url(images/illustration-phones.svg);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
