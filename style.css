@@ -34,7 +34,12 @@ body {
 }
 
 nav {
+  position: absolute;
   display: flex;
+  width: calc(100% - 3rem);
+  left: 50%;
+  transform: translateX(-50%);
+  top: 3.5rem;
 }
 
 .nav__menu {
@@ -43,6 +48,17 @@ nav {
 
 .nav__inside {
   display: none;
+}
+
+header {
+  background-color: gray;
+  height: 37.5rem;
+  padding-top: 12.5rem;
+  text-align: center;
+}
+
+header h1 {
+  margin-top: 0;
 }
 
 .attribution {
