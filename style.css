@@ -125,10 +125,13 @@ header button {
   background:
     url(images/bg-pattern-circles.svg),
     linear-gradient(var(--very-dark-gray-blue), var(--very-dark-desaturated-blue), var(--very-dark-gray-blue));
+  margin-top: 15rem;
 }
 
 .section__state-img {
   content: url(images/illustration-phones.svg);
+  transform: translateY(-11rem);
+  width: 100%;
 }
 
 .attribution {
