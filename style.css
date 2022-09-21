@@ -127,6 +127,8 @@ header button {
     linear-gradient(var(--very-dark-gray-blue), var(--very-dark-desaturated-blue), var(--very-dark-gray-blue));
   background-size: 160%;
   margin-top: 15rem;
+  border-top-right-radius: 5rem;
+  border-bottom-left-radius: 5rem;
 }
 
 .section__state-img {
