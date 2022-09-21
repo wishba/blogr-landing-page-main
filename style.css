@@ -102,7 +102,23 @@ header button {
 }
 
 .section__design h2 {
-  margin: 6.3rem auto;
+  margin-top: 6.3rem;
+}
+
+.section__design-img {
+  content: url(images/illustration-editor-mobile.svg);
+  width: 100%;
+  margin-top: 3rem;
+}
+
+.section__design-body {
+  margin: auto 2.5rem;
+}
+
+.section__design h3 {
+  margin: 3rem auto 0;
+  transform: scale(1.25);
+  width: 15ch;
 }
 
 .attribution {
