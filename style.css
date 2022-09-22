@@ -252,6 +252,9 @@ footer a {
   }
 
   .section__state {
+    background:
+      url(images/bg-pattern-circles.svg) right 45rem bottom -10rem no-repeat,
+      linear-gradient(var(--very-dark-gray-blue), var(--very-dark-desaturated-blue), var(--very-dark-gray-blue));
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-bottom: 0;
