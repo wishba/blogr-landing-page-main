@@ -204,6 +204,10 @@ footer a {
 }
 
 @media (min-width:600px) {
+  nav {
+    width: calc(100% - 10rem);
+  }
+
   header {
     background:
       url(images/bg-pattern-intro-desktop.svg) left 30% top 50%,
