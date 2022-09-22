@@ -262,6 +262,11 @@ footer a {
   .section__laptop {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 4rem;
+  }
+
+  .section__laptop-img {
+    margin: 0 auto 0 -4rem;
   }
 
   .section__laptop-body {
