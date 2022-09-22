@@ -203,7 +203,7 @@ footer a {
   color: var(--grayish-blue);
 }
 
-@media (min-width:600px) {
+@media (min-width:1000px) {
   nav {
     width: calc(100% - 10rem);
   }
