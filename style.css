@@ -206,7 +206,7 @@ footer a {
 @media (min-width:600px) {
   header {
     background:
-      url(images/bg-pattern-intro-desktop.svg) left 35% top 35%,
+      url(images/bg-pattern-intro-desktop.svg) left 30% top 50%,
       linear-gradient(var(--very-light-red), var(--light-red));
   }
 
