@@ -158,12 +158,12 @@ header button {
   margin-top: 5rem;
 }
 
-.section__laptop {
+.section__laptop-body {
   text-align: center;
   margin: 2.5rem;
 }
 
-.section__laptop h3 {
+.section__laptop-body h3 {
   transform: scale(1.25);
   margin-top: 3.5rem;
 }
@@ -222,7 +222,8 @@ footer a {
   }
 
   .section__design h3 {
-    margin-left: 1.5rem;
+    transform: scale(1);
+    width: auto;
   }
 
   .section__design-body {
@@ -248,5 +249,24 @@ footer a {
   .section__state-body {
     margin: 0;
     text-align: left;
+  }
+
+  .section__state-body h2 {
+    transform: scale(1);
+    width: auto;
+  }
+
+  .section__laptop {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .section__laptop-body {
+    text-align: left;
+    margin: 0;
+  }
+
+  .section__laptop-body h3 {
+    transform: scale(1);
   }
 }
