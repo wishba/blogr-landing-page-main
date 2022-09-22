@@ -162,6 +162,11 @@ header button {
   margin: 2.5rem;
 }
 
+.section__laptop h3 {
+  transform: scale(1.25);
+  margin-top: 3.5rem;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
