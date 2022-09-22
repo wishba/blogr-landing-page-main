@@ -190,9 +190,13 @@ footer a {
 
 .attribution {
   font-size: 11px;
-  text-align: center;
+  display: flex;
+  color: var(--white);
+  justify-content: center;
 }
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+  margin: 0 0 0 .25em;
+  color: var(--grayish-blue);
 }
