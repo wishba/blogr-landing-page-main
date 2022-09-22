@@ -240,6 +240,8 @@ footer a {
   .section__design-img {
     grid-area: 2/2/3/3;
     content: url(images/illustration-editor-desktop.svg);
+    height: 55rem;
+    width: auto;
   }
 
   .section__state {
@@ -275,6 +277,8 @@ footer a {
   .section__laptop-img {
     margin: 0 auto 0 -4rem;
     content: url(images/illustration-laptop-desktop.svg);
+    height: 50rem;
+    width: auto;
   }
 
   .section__laptop-body {
