@@ -279,7 +279,7 @@ footer a {
 
   .section__laptop-body {
     text-align: left;
-    margin: 0;
+    margin: auto 1.5rem auto auto;
   }
 
   .section__laptop-body h3 {
