@@ -233,4 +233,20 @@ footer a {
   .section__design-img {
     grid-area: 2/2/3/3;
   }
+
+  .section__state {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 0;
+  }
+
+  .section__state-img {
+    transform: translateY(0);
+    width: 50%;
+  }
+
+  .section__state-body {
+    margin: 0;
+    text-align: left;
+  }
 }
