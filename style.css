@@ -269,4 +269,18 @@ footer a {
   .section__laptop-body h3 {
     transform: scale(1);
   }
+
+  footer {
+    display: flex;
+  }
+
+  footer img {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .attribution {
+    position: absolute;
+    left: 0;
+  }
 }
