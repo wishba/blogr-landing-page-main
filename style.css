@@ -280,10 +280,15 @@ footer a {
 
   footer {
     display: flex;
+    text-align: left;
   }
 
   footer img {
     margin: 4rem 10rem auto 11.5rem;
+  }
+
+  footer a {
+    margin-left: 0;
   }
 
   .attribution {
