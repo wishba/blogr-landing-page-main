@@ -167,6 +167,27 @@ header button {
   margin-top: 3.5rem;
 }
 
+footer {
+  background-color: var(--very-dark-black-blue);
+  text-align: center;
+}
+
+footer img {
+  margin: 4.5rem auto 1rem;
+}
+
+footer p {
+  color: var(--white);
+  margin: 3.5rem auto 2rem;
+}
+
+footer a {
+  display: block;
+  text-decoration: none;
+  color: var(--grayish-blue);
+  margin: 1rem;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
