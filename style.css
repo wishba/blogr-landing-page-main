@@ -283,8 +283,7 @@ footer a {
   }
 
   footer img {
-    margin-top: auto;
-    margin-bottom: auto;
+    margin: 4rem 10rem auto 11.5rem;
   }
 
   .attribution {
