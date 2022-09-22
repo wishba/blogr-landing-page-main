@@ -204,6 +204,12 @@ footer a {
 }
 
 @media (min-width:600px) {
+  header {
+    background:
+      url(images/bg-pattern-intro-desktop.svg) left 35% top 35%,
+      linear-gradient(var(--very-light-red), var(--light-red));
+  }
+
   header h1 {
     width: auto;
   }
@@ -233,6 +239,7 @@ footer a {
 
   .section__design-img {
     grid-area: 2/2/3/3;
+    content: url(images/illustration-editor-desktop.svg);
   }
 
   .section__state {
@@ -267,6 +274,7 @@ footer a {
 
   .section__laptop-img {
     margin: 0 auto 0 -4rem;
+    content: url(images/illustration-laptop-desktop.svg);
   }
 
   .section__laptop-body {
@@ -281,6 +289,7 @@ footer a {
   footer {
     display: flex;
     text-align: left;
+    margin-top: 5rem;
   }
 
   footer img {
