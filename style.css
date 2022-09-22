@@ -244,6 +244,8 @@ footer a {
     content: url(images/illustration-editor-desktop.svg);
     height: 55rem;
     width: auto;
+    margin-right: -18rem;
+    margin-left: auto;
   }
 
   .section__state {
@@ -278,7 +280,7 @@ footer a {
   }
 
   .section__laptop-img {
-    margin: 0 0 0 auto;
+    margin: 0 auto 0 -20rem;
     content: url(images/illustration-laptop-desktop.svg);
     height: 50rem;
     width: auto;
