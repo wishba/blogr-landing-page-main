@@ -211,4 +211,26 @@ footer a {
   header p {
     width: auto;
   }
+
+  .section__design {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .section__design h2 {
+    grid-area: 1/1/2/3;
+  }
+
+  .section__design h3 {
+    margin-left: 1.5rem;
+  }
+
+  .section__design-body {
+    grid-area: 2/1/3/2;
+    text-align: left;
+  }
+
+  .section__design-img {
+    grid-area: 2/2/3/3;
+  }
 }
