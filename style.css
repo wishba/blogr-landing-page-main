@@ -157,6 +157,11 @@ header button {
   margin-top: 5rem;
 }
 
+.section__laptop {
+  text-align: center;
+  margin: 2.5rem;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
