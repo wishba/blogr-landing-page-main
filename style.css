@@ -78,14 +78,7 @@ nav {
 }
 
 header {
-  text-align: center;
   font-family: 'Overpass', sans-serif;
-  color: var(--White-text);
-  background:
-    url(images/bg-pattern-intro-mobile.svg) top 35% left 35%,
-    linear-gradient(var(--Very-light-red), var(--Light-red));
-  padding-top: 10rem;
-  border-bottom-left-radius: 20%;
   height: calc(37.5rem - 12.5rem);
   padding-top: 12.5rem;
   text-align: center;
@@ -234,7 +227,24 @@ footer a {
   color: var(--grayish-blue);
 }
 
-@media (min-width:1000px) {
+@media (min-width:600px) {
+  header {
+    background:
+      url(images/bg-pattern-intro-desktop.svg) left 35% top 35%,
+      linear-gradient(var(--very-light-red), var(--light-red));
+  }
+
+  .section__design-img {
+    background: url(images/illustration-editor-desktop.svg) center no-repeat;
+    background-size: contain;
+  }
+
+  .section__laptop-img {
+    background: url(images/illustration-laptop-desktop.svg) center no-repeat;
+  }
+}
+
+/* @media (min-width:1000px) {
   nav {
     width: calc(100% - 10rem);
   }
@@ -353,4 +363,4 @@ footer a {
     position: absolute;
     left: 0;
   }
-}
+} */
