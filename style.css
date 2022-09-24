@@ -99,6 +99,16 @@ nav>* {
 .nav__company-inside,
 .nav__connect-inside {
   display: none;
+  background-color: var(--grayish-blue);
+}
+
+.nav__product-inside>a,
+.nav__company-inside>a,
+.nav__connect-inside>a {
+  display: block;
+  margin: 1rem;
+  text-decoration: none;
+  color: var(--very-dark-gray-blue);
 }
 
 .nav__product-inside-opened,
