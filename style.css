@@ -120,6 +120,19 @@ nav>* {
 .nav__button button {
   display: block;
   margin: 1.5rem auto;
+  border: none;
+  width: 5rem;
+  height: 2rem;
+  border-radius: 1rem;
+}
+
+.nav__button-login {
+  background: none;
+}
+
+.nav__button-sign {
+  background-color: var(--light-red);
+  color: var(--white);
 }
 
 header {
