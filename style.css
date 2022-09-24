@@ -68,6 +68,18 @@ nav>* {
   display: block;
 }
 
+.nav__product-inside,
+.nav__company-inside,
+.nav__connect-inside {
+  display: none;
+}
+
+.nav__product-inside-opened,
+.nav__company-inside-opened,
+.nav__connect-inside-opened {
+  display: block;
+}
+
 header {
   font-family: 'Overpass', sans-serif;
   height: calc(37.5rem - 12.5rem);
