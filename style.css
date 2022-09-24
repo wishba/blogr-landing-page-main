@@ -60,18 +60,6 @@ nav>* {
   overflow-x: hidden;
 }
 
-nav {
-  position: absolute;
-  display: flex;
-  width: calc(100% - 3rem);
-  left: 50%;
-  transform: translateX(-50%);
-  top: 3.5rem;
-}
-
-.nav__menu {
-  margin: auto 0 auto auto;
-}
 
 .nav__inside {
   display: none;
