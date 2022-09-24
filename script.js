@@ -1,10 +1,19 @@
 function openNav() {
   const navInside = document.getElementById("navInside");
-  if (navInside.className == "nav__inside") {
-    navInside.className = "nav__inside nav__inside-opened";
-  } else if (navInside.className == "nav__inside nav__inside-opened") {
-    navInside.className = "nav__inside";
-  }
+  const menuBtn = document.getElementById("menuBtn");
+  const closeBtn = document.getElementById("closeBtn");
+  navInside.className = "nav__inside nav__inside-opened";
+  menuBtn.className = "nav__menu nav__menu-invisible";
+  closeBtn.className = "nav__close nav__close-visible";
+}
+
+function closeNav() {
+  const navInside = document.getElementById("navInside");
+  const menuBtn = document.getElementById("menuBtn");
+  const closeBtn = document.getElementById("closeBtn");
+  navInside.className = "nav__inside";
+  menuBtn.className = "nav__menu";
+  closeBtn.className = "nav__close";
 }
 
 function openProduct() {

@@ -55,6 +55,19 @@ nav>* {
   margin-left: auto;
 }
 
+.nav__menu.nav__menu-invisible {
+  display: none;
+}
+
+.nav__close {
+  display: none;
+}
+
+.nav__close.nav__close-visible {
+  display: block;
+  margin-left: auto;
+}
+
 .nav__container {
   font-family: 'Overpass', sans-serif;
   overflow-x: hidden;
