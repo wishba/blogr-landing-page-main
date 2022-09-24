@@ -439,6 +439,34 @@ footer a {
     display: none;
   }
 
+  .section__design-body {
+    max-width: 25rem;
+    margin-left: auto;
+    margin-right: 2rem;
+  }
+
+  .section__design-img {
+    background-position: left;
+  }
+
+  .section__state-img {
+    background-position: right;
+  }
+
+  .section__state-body {
+    max-width: 25rem;
+    margin-left: 2rem;
+  }
+
+  .section__laptop-img {
+    background-position: right;
+  }
+
+  .section__laptop-body {
+    max-width: 25rem;
+    margin-left: 2rem;
+  }
+
   footer {
     display: flex;
   }
