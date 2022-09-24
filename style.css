@@ -234,13 +234,35 @@ footer a {
       linear-gradient(var(--very-light-red), var(--light-red));
   }
 
+  .section__design {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .section__design h2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 5rem;
+  }
+
   .section__design-img {
     background: url(images/illustration-editor-desktop.svg) center no-repeat;
     background-size: contain;
+    grid-area: 1/2/2/3;
+    margin: auto 0 auto;
+  }
+
+  .section__design-body {
+    grid-area: 1/1/2/2;
+    text-align: left;
+    margin-top: 8rem;
   }
 
   .section__design h3 {
     transform: scale(1);
+    margin-left: 0;
+    width: auto;
   }
 
   .section__state-body h2 {
