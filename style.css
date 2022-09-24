@@ -62,6 +62,11 @@ nav>* {
 
 .nav__inside {
   display: none;
+  position: absolute;
+  background-color: var(--white);
+  width: 100%;
+  top: 4rem;
+  text-align: center;
 }
 
 .nav__inside.nav__inside-opened {
@@ -78,6 +83,11 @@ nav>* {
 .nav__company-inside-opened,
 .nav__connect-inside-opened {
   display: block;
+}
+
+.nav__button button {
+  display: block;
+  margin: auto;
 }
 
 header {
