@@ -138,6 +138,7 @@ header button {
 .section__design-img {
   height: 20.5rem;
   background: url(images/illustration-editor-mobile.svg) center no-repeat;
+  background-size: contain;
   margin-top: 3rem;
 }
 
