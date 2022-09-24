@@ -339,125 +339,25 @@ footer a {
   .nav__menu {
     display: none;
   }
-}
-
-/* @media (min-width:1000px) {
-  nav {
-    width: calc(100% - 10rem);
-  }
-
-  header {
-    background:
-      url(images/bg-pattern-intro-desktop.svg) left 30% top 50%,
-      linear-gradient(var(--very-light-red), var(--light-red));
-  }
-
-  header h1 {
-    width: auto;
-  }
-
-  header p {
-    width: auto;
-  }
-
-  .section__design {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .section__design h2 {
-    grid-area: 1/1/2/3;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-  }
-
-  .section__design h3 {
-    transform: scale(1);
-    width: auto;
-  }
-
-  .section__design-body {
-    grid-area: 2/1/3/2;
-    text-align: left;
-    width: 35.5rem;
-    margin: auto 0 auto auto;
-  }
-
-  .section__design-img {
-    grid-area: 2/2/3/3;
-    background: url(images/illustration-editor-mobile.svg) center no-repeat;
-    height: 55rem;
-    width: auto;
-    margin-right: -18rem;
-    margin-left: auto;
-  }
-
-  .section__state {
-    background:
-      url(images/bg-pattern-circles.svg) right 45rem bottom -10rem no-repeat,
-      linear-gradient(var(--very-dark-gray-blue), var(--very-dark-desaturated-blue), var(--very-dark-gray-blue));
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-bottom: 0;
-    margin: 3.5rem 0 0;
-  }
-
-  .section__state-img {
-    transform: translateY(0);
-    height: 30rem;
-    width: auto;
-    margin: -3rem auto -5rem auto;
-  }
-
-  .section__state-body {
-    margin: auto 1.5rem auto 0;
-    text-align: left;
-    width: 35.5rem;
-  }
-
-  .section__state-body h2 {
-    transform: scale(1);
-    width: auto;
-  }
-
-  .section__laptop {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-top: 4rem;
-  }
-
-  .section__laptop-img {
-    background: url(images/illustration-laptop-desktop.svg) center no-repeat;
-  }
-
-  .section__laptop-body {
-    text-align: left;
-    width: 35.5rem;
-    margin: auto auto auto 0;
-  }
-
-  .section__laptop-body h3 {
-    transform: scale(1);
-  }
 
   footer {
     display: flex;
+  }
+
+  footer>img {
+    margin: 3rem 5rem auto 5rem;
+  }
+
+  .footer__link>div {
+    margin-right: 5rem;
     text-align: left;
-    margin-top: 5rem;
   }
 
-  footer img {
-    margin: 4rem 10rem auto 11.5rem;
-  }
-
-  footer a {
+  .footer__link>div>a {
     margin-left: 0;
-    margin-right: 11.5rem;
   }
 
   .attribution {
     position: absolute;
-    left: 0;
   }
-} */
+}
