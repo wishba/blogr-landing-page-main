@@ -389,7 +389,7 @@ footer a {
 
 @media (min-width:1000px) {
   nav>img {
-    margin: auto 5rem auto 2rem;
+    margin: 0 5rem auto 2rem;
   }
 
   .nav__inside {
@@ -405,6 +405,16 @@ footer a {
 
   .nav__link>a {
     color: var(--white);
+  }
+
+  .nav__product-inside,
+  .nav__company-inside,
+  .nav__connect-inside {
+    background-color: var(--white);
+    text-align: left;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 1rem;
   }
 
   .nav__button {
