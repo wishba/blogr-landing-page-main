@@ -239,8 +239,20 @@ footer a {
     background-size: contain;
   }
 
+  .section__design h3 {
+    transform: scale(1);
+  }
+
+  .section__state-body h2 {
+    transform: scale(1);
+  }
+
   .section__laptop-img {
     background: url(images/illustration-laptop-desktop.svg) center no-repeat;
+  }
+
+  .section__laptop-body h3 {
+    transform: scale(1);
   }
 }
 
