@@ -340,12 +340,6 @@ footer a {
     margin-left: 1rem;
   }
 
-  .nav__product-inside,
-  .nav__company-inside,
-  .nav__connect-inside {
-    display: none;
-  }
-
   .nav__button {
     margin-left: auto;
     margin-right: 5rem;
