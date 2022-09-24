@@ -75,7 +75,7 @@ nav>* {
 
 .nav__inside {
   display: none;
-  position: absolute;
+  /* position: absolute; */
   background-color: var(--white);
   width: 100%;
   top: 4rem;
@@ -389,21 +389,40 @@ footer a {
 
 @media (min-width:1000px) {
   nav>img {
-    margin: 0 5rem auto 2rem;
+    margin: auto 5rem auto 2rem;
   }
 
   .nav__inside {
     display: flex;
     width: 100%;
+    position: static;
+    background-color: transparent;
   }
 
   .nav__link {
     margin-left: 1rem;
   }
 
+  .nav__link>a {
+    color: var(--white);
+  }
+
   .nav__button {
     margin-left: auto;
     margin-right: 5rem;
+  }
+
+  .nav__button>button {
+    display: inline;
+  }
+
+  .nav__button-login {
+    color: var(--white);
+  }
+
+  .nav__button-sign {
+    color: var(--light-red);
+    background-color: var(--white);
   }
 
   .nav__menu {
