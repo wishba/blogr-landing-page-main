@@ -136,8 +136,8 @@ header button {
 }
 
 .section__design-img {
-  content: url(images/illustration-editor-mobile.svg);
-  width: 100%;
+  height: 20.5rem;
+  background: url(images/illustration-editor-mobile.svg) center no-repeat;
   margin-top: 3rem;
 }
 
@@ -165,7 +165,9 @@ header button {
 }
 
 .section__state-img {
-  content: url(images/illustration-phones.svg);
+  height: 21.5rem;
+  background: url(images/illustration-phones.svg) center no-repeat;
+  background-size: contain;
   transform: translateY(-11rem);
   width: 100%;
 }
@@ -276,7 +278,7 @@ footer a {
 
   .section__design-img {
     grid-area: 2/2/3/3;
-    content: url(images/illustration-editor-desktop.svg);
+    background: url(images/illustration-editor-mobile.svg) center no-repeat;
     height: 55rem;
     width: auto;
     margin-right: -18rem;
