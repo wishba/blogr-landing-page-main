@@ -312,6 +312,15 @@ footer a {
   .section__laptop-body h3 {
     transform: scale(1);
   }
+
+  footer {
+    margin-top: 7rem;
+  }
+
+  .footer__link {
+    display: flex;
+    justify-content: space-around;
+  }
 }
 
 /* @media (min-width:1000px) {
