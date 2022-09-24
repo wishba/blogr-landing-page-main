@@ -293,8 +293,20 @@ footer a {
     width: auto;
   }
 
+  .section__laptop {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
   .section__laptop-img {
     background: url(images/illustration-laptop-desktop.svg) center no-repeat;
+    background-size: contain;
+    margin: auto 0 auto;
+  }
+
+  .section__laptop-body {
+    margin: 0 2rem 0 0;
+    text-align: left;
   }
 
   .section__laptop-body h3 {
