@@ -36,7 +36,6 @@ body {
   font-size: 16px;
   margin: 0;
   padding: 0;
-  <<<<<<< HEAD
 }
 
 nav {
@@ -57,7 +56,7 @@ nav>* {
 }
 
 .nav__container {
-  =======font-family: 'Overpass', sans-serif;
+  font-family: 'Overpass', sans-serif;
   overflow-x: hidden;
 }
 
@@ -75,11 +74,11 @@ nav {
 }
 
 .nav__inside {
-  >>>>>>>f4b1ac38e334410f6f67bb8bdf6d5f61fd71eb95 display: none;
+  display: none;
 }
 
 header {
-  <<<<<<< HEAD text-align: center;
+  text-align: center;
   font-family: 'Overpass', sans-serif;
   color: var(--White-text);
   background:
@@ -87,7 +86,7 @@ header {
     linear-gradient(var(--Very-light-red), var(--Light-red));
   padding-top: 10rem;
   border-bottom-left-radius: 20%;
-  =======height: calc(37.5rem - 12.5rem);
+  height: calc(37.5rem - 12.5rem);
   padding-top: 12.5rem;
   text-align: center;
   background:
@@ -95,7 +94,6 @@ header {
     linear-gradient(var(--very-light-red), var(--light-red));
   color: var(--white);
   border-bottom-left-radius: 5rem;
-  >>>>>>>f4b1ac38e334410f6f67bb8bdf6d5f61fd71eb95
 }
 
 header h1 {
@@ -125,8 +123,8 @@ header button {
 
 .header__learn {
   background-color: transparent;
-  <<<<<<< HEAD color: var(--White-text);
-  =======color: var(--white);
+  color: var(--White-text);
+  color: var(--white);
 }
 
 .section__design {
@@ -219,7 +217,6 @@ footer a {
   text-decoration: none;
   color: var(--grayish-blue);
   margin: 1rem;
-  >>>>>>>f4b1ac38e334410f6f67bb8bdf6d5f61fd71eb95
 }
 
 .attribution {
