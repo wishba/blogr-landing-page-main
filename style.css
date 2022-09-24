@@ -60,9 +60,12 @@ nav>* {
   overflow-x: hidden;
 }
 
-
 .nav__inside {
   display: none;
+}
+
+.nav__inside.nav__inside-opened {
+  display: block;
 }
 
 header {
