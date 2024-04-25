@@ -388,7 +388,9 @@ footer a {
   .nav__inside.nav__inside--opened {
     display: block;
     position: absolute;
-    padding: 0;
+    border-radius: .5rem;
+    box-shadow: 0px 0px 3rem 0px var(--very-dark-grayish-blue);
+    padding: 2rem 0 0;
   }
 
   .nav__inside.nav__inside--opened .nav__link-container {
@@ -409,12 +411,19 @@ footer a {
   .nav__company-inside.nav__company-inside--opened,
   .nav__connect-inside.nav__connect-inside--opened {
     padding: .1rem;
+    margin-top: 1rem;
   }
 
   .nav__link-product-arrow,
   .nav__link-company-arrow,
   .nav__link-connect-arrow {
     content: url(images/icon-arrow-dark.svg);
+  }
+
+  .nav__button-login,
+  .nav__button-sign {
+    font-family: inherit;
+    font-size: inherit;
   }
 }
 
