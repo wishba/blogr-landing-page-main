@@ -162,9 +162,19 @@ header button {
   color: var(--light-red);
 }
 
+.header__start:hover {
+  background-color: var(--very-light-red);
+  color: var(--white);
+}
+
 .header__learn {
   background-color: transparent;
   color: var(--white);
+}
+
+.header__learn:hover {
+  background-color: var(--white);
+  color: var(--light-red);
 }
 
 .section__design {
@@ -420,6 +430,10 @@ footer a {
     color: var(--white);
   }
 
+  .nav__link>a:hover {
+    text-decoration: underline;
+  }
+
   .nav__product-inside,
   .nav__company-inside,
   .nav__connect-inside {
@@ -430,8 +444,28 @@ footer a {
     margin-top: 1rem;
   }
 
+  .nav__product-inside.nav__product-inside--opened,
+  .nav__company-inside.nav__company-inside--opened,
+  .nav__connect-inside.nav__connect-inside--opened {
+    border-radius: .5rem;
+    box-shadow: 0px 0px 3rem 0px var(--very-dark-grayish-blue);
+    width: 8rem;
+  }
+
+  .nav__product-inside.nav__product-inside--opened>a:hover,
+  .nav__company-inside.nav__company-inside--opened>a:hover,
+  .nav__connect-inside.nav__connect-inside--opened>a:hover {
+    color: var(--very-dark-black-blue);
+    font-weight: bold;
+  }
+
   .nav__button>button {
     display: inline;
+    font-family: inherit;
+  }
+
+  .nav__button>button:hover {
+    cursor: pointer;
   }
 
   .nav__button-login {
@@ -441,6 +475,11 @@ footer a {
   .nav__button-sign {
     color: var(--light-red);
     background-color: var(--white);
+  }
+
+  .nav__button-sign:hover {
+    color: var(--white);
+    background-color: var(--very-light-red);
   }
 
   .nav__menu {
