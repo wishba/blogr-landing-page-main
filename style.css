@@ -9,6 +9,7 @@
 
   --white: hsl(0, 0%, 100%);
   --grayish-blue: hsl(240, 2%, 79%);
+  --grayish-blue-alter: hsla(240, 3%, 79%, 0.5);
   --very-dark-grayish-blue: hsl(207, 13%, 34%);
   --very-dark-black-blue: hsl(240, 10%, 16%);
 
@@ -50,11 +51,6 @@ nav>* {
   display: none;
 }
 
-.nav__close.nav__close-visible {
-  display: block;
-  margin-left: auto;
-}
-
 .nav__container {
   font-family: 'Overpass', sans-serif;
   overflow-x: hidden;
@@ -68,10 +64,6 @@ nav>* {
   text-align: center;
   justify-content: space-between;
   padding: 0 5rem;
-}
-
-.nav__inside.nav__inside-opened {
-  display: block;
 }
 
 .nav__link-container {
@@ -88,7 +80,7 @@ nav>* {
 .nav__link-product-arrow,
 .nav__link-company-arrow,
 .nav__link-connect-arrow {
-  content: url(images/icon-arrow-dark.svg);
+  content: url(images/icon-arrow-light.svg);
   display: inline;
 }
 
@@ -96,7 +88,7 @@ nav>* {
 .nav__company-inside,
 .nav__connect-inside {
   display: none;
-  background-color: var(--grayish-blue);
+  background-color: var(--grayish-blue-alter);
 }
 
 .nav__product-inside>a,
@@ -108,10 +100,11 @@ nav>* {
   color: var(--very-dark-gray-blue);
 }
 
-.nav__product-inside-opened,
-.nav__company-inside-opened,
-.nav__connect-inside-opened {
+.nav__product-inside--opened,
+.nav__company-inside--opened,
+.nav__connect-inside--opened {
   display: block;
+  position: absolute;
 }
 
 .nav__button button {
@@ -276,7 +269,6 @@ footer a {
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
   margin: 0 0 0 .25em;
   color: var(--grayish-blue);
 }
@@ -374,6 +366,45 @@ footer a {
   .footer__link {
     display: flex;
     justify-content: space-around;
+  }
+}
+
+@media (max-width:1000px) {
+  .nav__close.nav__close-visible {
+    display: block;
+    margin-left: auto;
+  }
+
+  .nav__inside.nav__inside--opened {
+    display: block;
+    position: absolute;
+    padding: 0;
+  }
+
+  .nav__inside.nav__inside--opened .nav__link-container {
+    flex-direction: column;
+  }
+
+  .nav__product-inside--opened,
+  .nav__company-inside--opened,
+  .nav__connect-inside--opened {
+    position: static;
+  }
+
+  .nav__link {
+    width: calc(100% - 2rem);
+  }
+
+  .nav__product-inside.nav__product-inside--opened,
+  .nav__company-inside.nav__company-inside--opened,
+  .nav__connect-inside.nav__connect-inside--opened {
+    padding: .1rem;
+  }
+
+  .nav__link-product-arrow,
+  .nav__link-company-arrow,
+  .nav__link-connect-arrow {
+    content: url(images/icon-arrow-dark.svg);
   }
 }
 
